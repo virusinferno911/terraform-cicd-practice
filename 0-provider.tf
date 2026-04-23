@@ -5,7 +5,7 @@ terraform {
       version = "~> 5.0"
     }
   }
-  
+
   # The Remote Backend Configuration
   backend "s3" {
     bucket = "terraform-state-practice-2026"
@@ -15,5 +15,5 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1" 
+  region = "us-east-1"
 }
